@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url(https://images.template.net/wp-content/uploads/2015/11/25190500/White-Light-plain-Background-Design-Download.jpg); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; ">
+    <h1 style="text-align: center;">Hover below me to see magic!</h1>
+   <div class="abc" style="margin-left: 250px; height: 500px; width: 1000px; background-repeat: no-repeat; background-size: 1000px;">
+   </div>
+
+
+
+
+
+
+
+
+
+
+   
+</body>
+<script>
+    let a = document.querySelector('.abc')
+  
+    a.addEventListener('mouseover', ()=>{
+        let b = parseInt(Math.random()*6)
+        console.log(b)
+    if (b==0)
+{
+    a.style.backgroundImage='url("https://i.pinimg.com/564x/6f/d6/8c/6fd68ced202b643053e9f281de52a016.jpg")'
+}
+ else if (b==1){
+    a.style.backgroundImage='url("https://image.shutterstock.com/image-photo/micro-peacock-feather-hd-imagebest-260nw-1127238569.jpg")'
+ }
+ else if (b==2){
+    a.style.backgroundImage='url("https://img.freepik.com/free-photo/blur-colored-texture_1160-889.jpg?size=626&ext=jpg")'
+ 
+ }
+ else if (b==3){
+    a.style.backgroundImage='url("https://wallpapercave.com/wp/wp2581365.jpg")'
+
+ }
+ else if (b==4){
+      a.style.backgroundImage='url("https://i.pinimg.com/originals/fa/7f/e0/fa7fe0e1b123aee12d0a7f5c3142fb41.jpg")'
+ }
+ else if (b==5){
+    a.style.backgroundImage='url(" https://i.pinimg.com/originals/ba/cb/fa/bacbfadb4dea09db7fdca26687b94f88.jpg")'
+ }
+
+})
+    </script>
+</html>
